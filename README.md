@@ -1,6 +1,6 @@
 # Chat with Your CSV
 
-This Streamlit application allows users to upload a CSV file and interact with its data using natural language queries. The app uses OpenAI's GPT model to interpret user questions and generate appropriate responses, including visualizations and data analysis.
+This Streamlit application allows users to upload a CSV file and interact with its data using natural language queries. The app uses OpenAI's GPT-4o model (or later versions) to interpret user questions and generate appropriate responses, including visualizations and data analysis.
 
 ## Features
 
@@ -18,7 +18,7 @@ This Streamlit application allows users to upload a CSV file and interact with i
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/chat-with-csv.git
+   git clone https://github.com/iamsaifali/chat-with-your-csv.git
    cd chat-with-your-csv
    ```
 
@@ -41,7 +41,7 @@ This Streamlit application allows users to upload a CSV file and interact with i
 
 2. Open your web browser and go to the URL displayed in the terminal (usually `http://localhost:8501`).
 
-3. Enter your OpenAI API key when prompted.
+3. Enter your OpenAI API key when prompted (If you haven't created a `.env` file or haven't set the OpenAI API key in that file).
 
 4. Upload a CSV file using the file uploader in the sidebar.
 
