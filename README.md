@@ -22,30 +22,46 @@ This Streamlit application allows users to upload a CSV file and interact with i
    cd chat-with-your-csv
    ```
 
-2. Install the required packages:
+2. Set up a virtual environment:
+
+   - For Windows:
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+   - For macOS and Linux:
+     ```
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the project root and add your OpenAI API key:
+4. Create a `.env` file in the project root and add your OpenAI API key:
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
 
 ## Usage
 
-1. Run the Streamlit app:
+1. Ensure your virtual environment is activated.
+
+2. Run the Streamlit app:
    ```
    streamlit run app.py
    ```
 
-2. Open your web browser and go to the URL displayed in the terminal (usually `http://localhost:8501`).
+3. Open your web browser and go to the URL displayed in the terminal (usually `http://localhost:8501`).
 
-3. Enter your OpenAI API key when prompted (If you haven't created a `.env` file or haven't set the OpenAI API key in that file).
+4. Enter your OpenAI API key when prompted (If you haven't created a `.env` file or haven't set the OpenAI API key in that file).
 
-4. Upload a CSV file using the file uploader in the sidebar.
+5. Upload a CSV file using the file uploader in the sidebar.
 
-5. Start asking questions about your data in natural language.
+6. Start asking questions about your data in natural language.
 
 ## Contributing
 
