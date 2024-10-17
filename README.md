@@ -19,7 +19,7 @@ This Streamlit application allows users to upload a CSV file and interact with i
 1. Clone this repository:
    ```
    git clone https://github.com/your-username/chat-with-csv.git
-   cd chat-with-csv
+   cd chat-with-your-csv
    ```
 
 2. Install the required packages:
